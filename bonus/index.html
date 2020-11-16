@@ -9,10 +9,14 @@
   </head>
   <body>
     <div id="app">
-      <div class="container">
+      <div class="title">
         <h1> {{ message }} </h1>
         <h3> {{ caption }} </h3>
+      </div>
+      <div class="container flex">
         <img :src="img">
+      </div>
+      <div class="CTA flex">
         <button @click="forward">Scopri di più</button>
       </div>
     </div>
